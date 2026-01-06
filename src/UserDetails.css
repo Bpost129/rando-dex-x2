@@ -15,9 +15,12 @@
 
 #user-bio {
   display: flex;
-  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(139, 199, 201, 0.95);
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 8px;
 }
 
-p {
-  color: white;
-}
