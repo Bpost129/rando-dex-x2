@@ -18,9 +18,9 @@ const UserDetails = () => {
     <div className="user">
       <img src={user.personal.profilePic} alt="an AI generated image of an origami animal" />
       <div id="user-bio">
-        <Employment user={user} employment={user.employment} />
         <Personal user={user} personal={user.personal} />
         <Address user={user} address={user.address} />
+        <Employment user={user} employment={user.employment} />
         <Cars user={user} cars={user.cars} />
         
 
