@@ -13,6 +13,11 @@
   padding: 50px 20px;
 }
 
+#user-bio {
+  display: flex;
+  
+}
+
 p {
   color: white;
 }
