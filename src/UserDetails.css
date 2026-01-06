@@ -24,3 +24,14 @@
   border-radius: 8px;
 }
 
+#garage {
+  display: flex;
+}
+
+#car {
+  margin: 6px;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
