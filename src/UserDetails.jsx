@@ -22,8 +22,6 @@ const UserDetails = () => {
         <Address user={user} address={user.address} />
         <Employment user={user} employment={user.employment} />
         <Cars user={user} cars={user.cars} />
-        
-
       </div>
 
     </div>  
